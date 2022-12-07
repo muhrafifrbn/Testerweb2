@@ -49,9 +49,13 @@
                                 <input type="text" name="no_hp" class="form-control" value="<?= $siswa['no_hp']; ?>">
                             </div>
                             <div class="mb-3">
-                                <label>Jurusan</label>
-                                <input type="text" name="jurusan" class="form-control" value="<?= $siswa['jurusan']; ?>">
-                            </div>
+                            <label>Jurusan</label>
+                            <select name="jurusan" class="form-select" aria-label="Default select example">
+                            <option value="RPL">RPL</option>
+                             <option value="TKJ">TKJ</option>
+                             <option value="MM">MM</option>
+                            </select>
+                        </div>
                             <div class="mb-3">
                                 <label>Alamat</label>
                                 <input type="text" name="alamat" class="form-control" value="<?= $siswa['alamat']; ?>">

@@ -39,7 +39,7 @@ session_start();
                         </div>
                         <div class="mb-3">
                             <label>Nomor Handphone</label>
-                            <input type="text" name="no_hp" class="form-control">
+                            <input type="number" name="no_hp" class="form-control">
                         </div>
                         <div class="mb-3">
                             <label>Jurusan</label>
