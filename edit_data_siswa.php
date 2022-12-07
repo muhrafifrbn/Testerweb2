@@ -46,11 +46,15 @@
                             </div>
                             <div class="mb-3">
                                 <label>Nomer Handphone</label>
-                                <input type="text" name="no_hp" class="form-control" value="<?= $siswa['no_hp']; ?>">
+                                <input type="number" name="no_hp" class="form-control" value="<?= $siswa['no_hp']; ?>">
                             </div>
                             <div class="mb-3">
-                                <label>Jurusan</label>
-                                <input type="text" name="jurusan" class="form-control" value="<?= $siswa['jurusan']; ?>">
+                            <label>Jurusan</label>
+                            <select name="jurusan" class="form-select" aria-label="Default select example">
+                            <option value="RPL">RPL</option>
+                             <option value="TKJ">TKJ</option>
+                             <option value="MM">MM</option>
+                            </select>
                             </div>
                             <div class="mb-3">
                                 <label>Alamat</label>
@@ -58,7 +62,7 @@
                             </div>
                             <div class="mb-3">
                                 <label>Tanggal Lahir</label>
-                                <input type="text" name="tanggal_lahir" class="form-control" value="<?= $siswa['tanggal_lahir']; ?>">
+                                <input type="date" name="tanggal_lahir" class="form-control" value="<?= $siswa['tanggal_lahir']; ?>">
                             </div>
                             <div class="mb-3">
                                 <button type="submit" name="ubah_data_siswa" class="btn btn-primary">Ubah Data Siswa</button>
