@@ -39,7 +39,7 @@ session_start();
                         </div>
                         <div class="mb-3">
                             <label>Nomor Handphone</label>
-                            <input type="text" name="no_hp" class="form-control">
+                            <input type="number" name="no_hp" class="form-control">
                         </div>
                         <div class="mb-3">
                             <label>Jurusan</label>
@@ -55,7 +55,7 @@ session_start();
                         </div>
                         <div class="mb-3">
                             <label>Tanggal Lahir</label>
-                            <input type="text" name="tanggal_lahir" class="form-control">
+                            <input type="date" name="tanggal_lahir" class="form-control">
                         </div>
                         <div class="mb-3">
                             <button type="submit" name="simpan" class="btn btn-primary">Simpan Data</button>
